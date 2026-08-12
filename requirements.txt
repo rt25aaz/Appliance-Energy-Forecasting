@@ -1,0 +1,18 @@
+# Core dependencies (all required)
+# Tested with Python 3.12; minimum bounds reflect APIs actually used.
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.7
+scikit-learn>=1.4          # root_mean_squared_error / permutation_importance
+statsmodels>=0.14          # SARIMAX state space, STL, ADF, KPSS, Ljung-Box
+
+# Optional: foundation model (assignment Part 8).
+# Without this the pipeline completes and records the foundation model as
+# NOT EXECUTED. Installing it also pulls in torch and transformers (~2 GB).
+# chronos-forecasting>=1.4
+
+# Optional: alternative gradient-boosting backends. The default backend is
+# scikit-learn's HistGradientBoostingRegressor, so neither is required.
+# xgboost>=2.0
+# lightgbm>=4.0
