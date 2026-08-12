@@ -1,0 +1,9 @@
+model,reference,dm_stat,p_value,significant_at_5pct,beats_reference
+mean,seasonal_naive_weekly,-0.671,0.5029,False,True
+naive,seasonal_naive_weekly,2.855,0.0046,True,False
+seasonal_naive_daily,seasonal_naive_weekly,0.521,0.603,False,False
+drift,seasonal_naive_weekly,2.857,0.0045,True,False
+sarima,seasonal_naive_weekly,-1.645,0.1009,False,True
+sarimax_exog_conditional,seasonal_naive_weekly,-1.66,0.0979,False,True
+ml_operational,seasonal_naive_weekly,-1.144,0.2535,False,True
+ml_conditional,seasonal_naive_weekly,-1.35,0.1779,False,True
